@@ -8,14 +8,16 @@
 }
 body {
     padding: 1rem 1.5rem;
-    height: 100vh; 
-    background: var(--background-color);
+    height: 120vh; 
+    background: linear-gradient(327deg, rgb(160, 222, 219), rgb(3, 165, 209));
 }
 main, header{
     padding: 1em 1.5em;
+    opacity: 0.50;
 }
 header {
-    background: white;
+    background-color: rgba(255,255,255,0.5);
+    color: black;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -39,7 +41,7 @@ header {
     background-color: #f3f3f3;
 }
 main {
-    background: white;
+    background: rgba(255,255,255,0.5);
     border-radius: 10px;
     height: 100vh;
 }
@@ -66,7 +68,6 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: left;
-    margin-bottom: 2em;
 }
 a {
     color: black;
@@ -94,6 +95,6 @@ a {
     height: 4em;
 }
 #cloud {
-    height: 5rem;
-    width: 5rem;
+    height: 3em;
+    width: 3em;
 }
